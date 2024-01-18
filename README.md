@@ -57,7 +57,7 @@ Binaries for macOS, Linux, and Windows are [attached to each release](https://gi
 
 ### Docker
 
-`yj` is also available as a [Docker image](https://hub.docker.com/r/rplessl/yj).
+`yj` is also available as a [Docker image](https://ghcr.io/rplessl/yj).
 
 ## Go Package
 
