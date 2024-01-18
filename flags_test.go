@@ -3,6 +3,7 @@ package main_test
 import (
 	"testing"
 
+	"github.com/rplessl/yj/v5"
 	"github.com/rplessl/yj/v5/convert"
 )
 
