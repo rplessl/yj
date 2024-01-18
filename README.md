@@ -1,7 +1,7 @@
 <img src="logo.png" alt="yj" width="180" />
 
-[![GoDoc](https://pkg.go.dev/badge/github.com/sclevine/yj/v5?status.svg)](https://pkg.go.dev/github.com/sclevine/yj/v5)
-[![Tests](https://github.com/sclevine/yj/actions/workflows/go.yml/badge.svg)](https://github.com/sclevine/yj/actions/workflows/go.yml)
+[![GoDoc](https://pkg.go.dev/badge/github.com/rplessl/yj/v5?status.svg)](https://pkg.go.dev/github.com/rplessl/yj/v5)
+[![Tests](https://github.com/rplessl/yj/actions/workflows/go.yml/badge.svg)](https://github.com/rplessl/yj/actions/workflows/go.yml)
 
 [![Packaging status](https://repology.org/badge/tiny-repos/yj-sclevine.svg)](https://repology.org/project/yj-sclevine/versions)
 
@@ -12,10 +12,10 @@ Convert between YAML, TOML, JSON, and HCL.
 Preserves map order.
 
 Format versions:
-- YAML: **v1.2** (gopkg.in/yaml.v3)
-- TOML: **v1.0.0** (github.com/BurntSushi/toml)
+- YAML: **v3.0.1** (gopkg.in/yaml.v3)
+- TOML: **v1.3.2** (github.com/BurntSushi/toml)
 - JSON: **RFC 7159** (encoding/json)
-- HCL: **v1** (github.com/hashicorp/hcl)
+- HCL: **v1.0.0** (github.com/hashicorp/hcl)
 
 ```
 $ yj -h
@@ -51,26 +51,26 @@ Preserves map order.
 
 ## Installation
 
-### Homebrew
+### Manual
+
+Binaries for macOS, Linux, and Windows are [attached to each release](https://github.com/rplessl/yj/releases).
+
+### Docker
+
+`yj` is also available as a [Docker image](https://hub.docker.com/r/rplessl/yj).
+
+## Go Package
+
+Packages contained in this repo may also be used to convert all supported data formats to a normalized tree of ordered Go objects.
+
+See [godoc](https://pkg.go.dev/github.com/rplessl/yj) for details.
+
+NOTE: The current Go API should not be considered stable.
+
+### Homebrew (version from sclevine/yj)
 
 The `yj` CLI is available via [Homebrew](https://brew.sh):
 
 ```bash
 brew install yj
 ```
-
-### Manual
-
-Binaries for macOS, Linux, and Windows are [attached to each release](https://github.com/sclevine/yj/releases).
-
-### Docker
-
-`yj` is also available as a [Docker image](https://hub.docker.com/r/sclevine/yj).
-
-## Go Package
-
-Packages contained in this repo may also be used to convert all supported data formats to a normalized tree of ordered Go objects.
-
-See [godoc](https://pkg.go.dev/github.com/sclevine/yj) for details.
-
-NOTE: The current Go API should not be considered stable.
